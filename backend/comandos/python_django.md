@@ -51,6 +51,11 @@
     ~~~bash    
         python manage.py runserver
     ~~~
+- Instalação do JWT
+    ~~~bash    
+        pip install djangorestframework-simplejwt
+    ~~~
+
 
 ## Django Rest Framework
 
