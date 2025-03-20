@@ -18,6 +18,10 @@
     ~~~bash
     python3.exe -m pip install --upgrade pip
     ~~~
+- Instalação do cors. Um aplicativo Django que adiciona cabeçalhos Cross-Origin Resource Sharing (CORS) às respostas
+    ~~~bash
+    pip install django-cors-headers
+    ~~~
 
 
 ## Django
