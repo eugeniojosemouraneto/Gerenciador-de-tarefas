@@ -1,2 +1,2 @@
-from .user import *
-from .notification import *
+from .serializer_user import *
+from .serializer_notification import *
