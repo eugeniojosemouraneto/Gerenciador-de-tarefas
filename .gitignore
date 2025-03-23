@@ -54,3 +54,5 @@ drf_example
 
 # projeto
 *documentation/development/
+
+db.sqlite3
