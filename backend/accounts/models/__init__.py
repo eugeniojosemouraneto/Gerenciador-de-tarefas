@@ -1,2 +1,2 @@
-from .user import *
-from .notification import *
+from .model_user import *
+from .model_notification import *
