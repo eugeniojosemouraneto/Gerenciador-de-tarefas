@@ -15,5 +15,17 @@ class user( AbstractBaseUser ):
             models.Index( fields = [ 'id', 'email' ]),
         ]
 
+    @classmethod
+    def get_by_email(cls, email: str):
+        try:
+            return cls.objects.get( email = email )
+        except cls.DoesNotExist:
+            return None
+        
+    @classmethod
+    def created(cls, name: str, email: str, password: str):
+        return cls.objects.create( name = name, email = email, password = password )
+    
     def __str__(self):
         return self.email
+    
