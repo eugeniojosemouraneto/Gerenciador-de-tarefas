@@ -63,3 +63,13 @@
     ~~~bash    
         pip install djangorestframework
     ~~~
+
+
+## Comandos rapidos
+
+- Atualização dos models
+
+    ~~~bash    
+        python manage.py makemigrations 
+        python manage.py migrate
+    ~~~
