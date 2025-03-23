@@ -26,7 +26,7 @@ O objetivo do MVP é validar as principais funcionalidades do sistema de gerenci
 - O usuario pode habilitar a notificação por email.
 
 ### 4. Calendário Básico
-- Visualização das tarefas em um calendário semanal.
+- Visualização das tarefas em um calendário semanal.+
 
 ### 5. Dashboard Simplificado
 - Visualização rápida das tarefas pendentes e concluídas.
